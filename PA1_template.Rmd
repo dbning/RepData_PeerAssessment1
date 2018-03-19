@@ -9,6 +9,8 @@ output:
 ## Loading and preprocessing the data
 
 ```{r echo=TRUE}
+
+```{r rcode1, echo=TRUE}
 if(!file.exists("activity.csv")){
       unzip("activity.zip")
 }
